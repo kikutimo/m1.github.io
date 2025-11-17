@@ -1,1 +1,28 @@
+/* H1要素の文字サイズ */
+h1 {
+    font-size: 2.5em; /* 標準の文字サイズ(16px)の2.5倍 = 40px相当 */
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+}
 
+/* H2要素の文字サイズ */
+h2 {
+    font-size: 2em; /* 標準の文字サイズ(16px)の2倍 = 32px相当 */
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+}
+
+/* p（段落）要素の文字サイズ */
+p {
+    font-size: 1em; /* 標準の文字サイズ(16px)と同じ */
+    line-height: 1.6; /* 行の高さを見やすく調整 */
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* *オプション：基本的なCSSリセット（必要であれば追加してください）* */
+/* *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
