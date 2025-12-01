@@ -4,7 +4,7 @@
 
 /* H1要素の文字サイズと基本的な調整 */
 h1 {
-    font-size: 2.5em; /* メインタイトル */
+    font-size: 2.5em; /* メインタイトル（titleを想定） */
     margin-top: 0.67em;
     margin-bottom: 0.67em;
     line-height: 1.2;
@@ -20,7 +20,7 @@ h2 {
 
 /* p（段落）要素の文字サイズと基本的な調整 */
 p {
-    font-size: 1em; /* すべての段落に適用 */
+    font-size: 1em;
     line-height: 1.6;
     margin-top: 1em;
     margin-bottom: 1em;
